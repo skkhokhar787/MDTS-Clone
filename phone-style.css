@@ -1,0 +1,158 @@
+@media (min-width: 0px) and (max-width: 460px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #f7f7f2;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f7f7f2;
+  }
+
+  .link a{
+    display: none;
+  }
+
+
+  #bars {
+    display: flex;
+    justify-self: baseline;
+    font-size: 20px;
+    background-color: #f7f7f2;
+    margin-left: 10px;
+  }
+
+  #logo-div {
+    position: sticky;
+    top: 0;
+    width: 400px;
+    height: 160px;
+    text-align: center;
+    background-color: #f7f7f2;
+    z-index: 1000;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    padding: 2px 0 0;
+    display: flex;
+    justify-self: center;
+  }
+
+  .divv {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-sec {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f7f7f2;
+    width: 400px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-sec #tv {
+    width: 300px;
+    height: 200px;
+    padding: 1rem;
+  }
+
+  .hero-sec #papers {
+    width: 200px;
+    height: 300px;
+    padding: 1rem;
+  }
+
+  h3 {
+    margin-top: 30px;
+    margin-left: 64px;
+    font-size: 19.4px;
+    color: #212529;
+  }
+
+  .info-div {
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    margin-left: 10px;
+  }
+
+  .input {
+    background-color: #f7f7f2;
+    border: none;
+    border-radius: 7px;
+  }
+
+  .input input {
+    padding: 1rem;
+    border-radius: 5px;
+    width: 150px;
+    height: 15px;
+    font-size: medium;
+    border: 1px solid #959696;
+    margin-left: 10px;
+  }
+
+  .button {
+    width: 80px;
+    height: 50px;
+    font-size: medium;
+    font-weight: bold;
+    /* padding: 1rem; */
+    border-radius: 7px;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    background-color: #303b42;
+  }
+
+  .social-links .icons {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: right;
+  }
+
+  hr {
+    margin-top: 40px;
+  }
+
+  .footer-content {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  p {
+    font-size: 10px;
+    color: #857e7e;
+  }
+
+  .footer-content a {
+    margin-left: 10px;
+    font-size: small;
+    color: 4444ea;
+  }
+}
