@@ -16,6 +16,10 @@
     background: none;
   }
 
+  nav {
+    margin-left: 50px;
+  }
+
   header {
     position: sticky;
     top: 0;
@@ -23,32 +27,37 @@
     background-color: #f7f7f2;
   }
 
-  .link a{
-    display: none;
+  .nav.div nav {
+    display: flex;
+    justify-self: center;
+    background: none;
   }
 
+  .link a {
+    display: none;
+  }
 
   #bars {
     display: flex;
     justify-self: baseline;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #f7f7f2;
-    margin-left: 10px;
+    margin: 70px 0px 0px 30px;
   }
 
   #logo-div {
     position: sticky;
     top: 0;
     width: 400px;
-    height: 160px;
+    height: 180px;
     text-align: center;
     background-color: #f7f7f2;
     z-index: 1000;
   }
 
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-top: 15px;
     padding: 2px 0 0;
     display: flex;
@@ -60,34 +69,43 @@
     display: flex;
     justify-content: center;
   }
-  .hero-sec {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #f7f7f2;
-    width: 400px;
-    height: max-content;
+
+  .hero {
+    width: 100px;
+    height: 180px;
     display: flex;
-    flex-direction: column;
+    justify-self: center;
+    background: none;
+    margin-left: 30px;
   }
 
-  .hero-sec #tv {
-    width: 300px;
-    height: 200px;
-    padding: 1rem;
+  .second-img {
+    width: 100px;
+    height: 180px;
+    display: flex;
+    justify-self: center;
+    background: none;
+    margin-left: 30px;
   }
 
-  .hero-sec #papers {
-    width: 200px;
+  .third-img {
+    width: 100px;
     height: 300px;
-    padding: 1rem;
+    background: none;
+    margin-left: 80px;
+  }
+
+  .fourth-img {
+    width: 100px;
+    height: 180px;
+    display: flex;
+    justify-self: center;
+    background: none;
+    margin-left: 30px;
   }
 
   h3 {
-    margin-top: 30px;
-    margin-left: 30px;
-    font-size: 19.4px;
-    color: #212529;
+    margin-right: 10px;
   }
 
   .info-div {
@@ -121,7 +139,7 @@
     height: 55px;
     font-size: medium;
     font-weight: bold;
-    /* padding: 1rem; */
+    padding: 0.5rem;
     border-radius: 7px;
     margin-left: 10px;
     border: none;
@@ -130,13 +148,12 @@
   }
 
   .social-links {
-    width: 30%;
+    width: 10%;
     display: flex;
-   
+    flex-direction: row;
     justify-content: space-between;
-    justify-self: right;
     margin-top: 40px;
-    margin-left: 230px;
+    margin-left: 250px;
     
   }
 
