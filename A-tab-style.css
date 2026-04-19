@@ -8,15 +8,25 @@
     background-color: #f7f7f2;
   }
 
+  .section {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    /* justify-content: center; */
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    
+  }
+
   header {
     position: sticky;
     top: 0;
     z-index: 1000;
     background-color: #f7f7f2;
-  }
-
-  .link i {
-    display: none;
   }
 
   #logo-div {
@@ -26,6 +36,7 @@
     height: 160px;
     text-align: center;
     background-color: #f7f7f2;
+    border: 1px solid black;
     z-index: 1000;
   }
 
@@ -36,35 +47,16 @@
     padding: 2px 0 0;
   }
 
-  .link {
-    margin-top: 30px;
+  #bars {
+    display: flex;
+    justify-self: baseline;
+    font-size: 25px;
+    background-color: #f7f7f2;
+    margin: 70px 0px 0px 30px;
   }
 
-  .link .color {
-    color: #8a4d5b;
-    font-size: 17.6px;
-    font-weight: 400;
-    text-decoration: none;
-  }
-
-  .link #home {
-    margin-right: 30px;
-  }
-
-  .link #home:hover {
-    text-decoration: underline;
-  }
-
-  .link #home:active {
-    text-decoration: underline;
-  }
-
-  .link #about-us:hover {
-    text-decoration: underline;
-  }
-
-  .link #about-us:active {
-    text-decoration: underline;
+  .link a {
+    display: none;
   }
 
   .divv {
@@ -72,34 +64,52 @@
     display: flex;
     justify-content: center;
   }
-  .hero-sec {
+
+  .hero {
+    width: 500px;
+    height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    background-color: #f7f7f2;
-    width: 90%;
-    height: max-content;
+    justify-self: center;
+    background: none;
+    margin-left: 700px;
+    margin-top: 70px;
   }
 
-  .hero-sec #tv {
-    width: 720px;
-    height: 450px;
-    padding: 1rem;
+  .hero img {
+    width: 500px;
+    height: 300px;
   }
 
-  .hero-sec #papers {
-    width: 400px;
+  .second-img {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-self: center;
+    background: none;
+    margin-left: 700px;
+    margin-top: 30px;
+  }
+
+  .third-img {
+    width: 300px;
     height: 500px;
-    padding: 1rem;
+    background: none;
+    margin-left: 800px;
+    margin-top: 30px;
+  }
+
+  .fourth-img {
+    width: 500px;
+    height: 380px;
+    display: flex;
+    justify-self: center;
+    background: none;
+    margin-left: 700px;
   }
 
   h3 {
-    margin-top: 30px;
-    margin-left: 64px;
-    font-size: 19.4px;
-    color: #212529;
+    margin-right: 10px;
+    margin-left: 700px
   }
 
   .info-div {
@@ -108,17 +118,15 @@
     justify-content: space-between;
     justify-self: center;
     margin-top: 60px;
-  }
-
-  .email {
-    display: flex;
-    width: 33%;
+    flex-direction: column;
+    margin-left: 15px;
   }
 
   .input {
     background-color: #f7f7f2;
     border: none;
     border-radius: 7px;
+    display: flex;
   }
 
   .input input {
@@ -135,7 +143,7 @@
     height: 55px;
     font-size: medium;
     font-weight: bold;
-    /* padding: 1rem; */
+    padding: 0.5rem;
     border-radius: 7px;
     margin-left: 10px;
     border: none;
@@ -144,10 +152,13 @@
   }
 
   .social-links {
-    width: 15%;
+    width: 10%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 250px;
+    
   }
 
   .social-links i {
@@ -159,20 +170,21 @@
   }
 
   .footer-content {
-    width: 90%;
-    margin-top: 40px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
-    justify-self: center;
-    margin-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
   }
 
   p {
-    font-size: small;
+    font-size: 10px;
     color: #857e7e;
   }
 
   .footer-content a {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: small;
     color: 4444ea;
   }
