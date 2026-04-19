@@ -53,6 +53,7 @@
     text-align: center;
     background-color: #f7f7f2;
     z-index: 1000;
+    margin-top: 0px;
   }
 
   .logo {
